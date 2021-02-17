@@ -1,0 +1,21 @@
+.user {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  width: 150px;
+  height: 60px;
+  i {
+    color: $color-secundario;
+    margin-right: 20px;
+  }
+  &__avatar{
+    display: flex;
+    align-items: center;
+  }
+  &__avatar--img{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+}
