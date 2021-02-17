@@ -1,11 +1,14 @@
 .search {
-  display: flex;
+  display: none;
   align-items: center;
   margin-left: 20px;
   margin-right: 20px;
   padding: 5px;
+  @include media(desktop-s){
+    display: flex;
+  }
   &__button {
-    color:green;
+    color:$color-auxiliar;
     border-top-left-radius: 15px;
     background-color: white;
     border: none;
