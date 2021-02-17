@@ -5,10 +5,10 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx'],
   },
   module: {
     rules: [
@@ -16,32 +16,32 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader'
+          loader: 'babel-loader',
         },
       },
       {
         test: /\.html$/,
         use: [
           {
-            loader: 'html-loader'
-          }
-        ]
+            loader: 'html-loader',
+          },
+        ],
       },
       {
         test: /\.s[ac]ss/i,
         use: ['style-loader', 'css-loader', 'sass-loader'],
-      }
-    ]
+      },
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
-      filename: './index.html'
+      filename: './index.html',
     }),
   ],
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 3005,
-  }
+  },
 };
