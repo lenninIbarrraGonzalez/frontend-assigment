@@ -1,0 +1,19 @@
+.topmenu{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  color: $color-secundario;
+  cursor: pointer;
+  @include media(desktop-s){
+    display: none;
+  }
+  &:hover{
+    background-color: $color-auxiliar;
+  }
+
+}
