@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const Copyrigth = () => (
-  <div className='copyrigth'>
+  <div className="copyrigth">
     <h4>DocRed @ 2019 Todos los derechos reservados</h4>
   </div>
-)
+);
 
-export default Copyrigth
+export default Copyrigth;
