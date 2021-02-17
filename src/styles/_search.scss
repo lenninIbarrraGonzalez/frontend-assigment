@@ -1,7 +1,6 @@
 .search {
   display: flex;
   align-items: center;
-  background-color: orange;
   margin-left: 20px;
   margin-right: 20px;
   padding: 5px;
@@ -14,6 +13,7 @@
   }
   &__box{
     border: none;
+    width: 300px;
     border-bottom-right-radius: 15px;
   }
 }

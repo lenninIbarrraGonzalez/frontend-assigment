@@ -1,12 +1,16 @@
-import React from 'react'
+import React from 'react';
 import avatar from '../../assets/images/avatarLenin.png';
 
 const InfoUser = () => (
-  <nav className='user'>
+  <nav className="user">
     <i className="far fa-bell" />
-    <img src={avatar} alt="" className='user__avatar' />
-    <i className="fas fa-angle-down" />
-  </nav>
-)
+    <div className="user__avatar">
+      <img src={avatar} alt="" className="user__avatar--img" />
+      <i className="fas fa-angle-down" />
+    </div>
 
-export default InfoUser
+    <i className="far fa-check-circle" />
+  </nav>
+);
+
+export default InfoUser;

@@ -3,5 +3,10 @@
   box-shadow: 0px 4px 6px -6px #000000;
   background-color: $color-primario;
   color: $color-secundario;
-  
+  height: 60px;
+  width: 100%;
+  &__left{
+    display: flex;
+    flex-grow: 1;
+  }
 }

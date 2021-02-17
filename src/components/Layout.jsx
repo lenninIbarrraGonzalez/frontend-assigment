@@ -1,7 +1,6 @@
-import React from 'react'
-import Footer from './Footer';
+import React from 'react';
+import Footer from './footer/Footer';
 import Header from './headers/Header';
-
 
 const Layout = ({ children }) => (
   <div className="Main">
@@ -10,6 +9,6 @@ const Layout = ({ children }) => (
     <footer />
     <Footer />
   </div>
-)
+);
 
 export default Layout;

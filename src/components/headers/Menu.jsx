@@ -1,12 +1,14 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Menu = () => (
-  <nav className='menu'>
+  <nav className="menu">
     <i className="fas fa-home" />
-    <Link to='/'>Inicio</Link>
+    <Link to="/" className="menu--link">
+      Inicio
+    </Link>
     <i className="fas fa-angle-down" />
   </nav>
-)
+);
 
-export default Menu
+export default Menu;
