@@ -1,5 +1,8 @@
 import React from 'react';
+import Banner from '../components/articles/Banner';
 
-const Home = () => <h1>Hola lennin</h1>;
+const Home = () => (
+  <Banner />
+);
 
 export default Home;
