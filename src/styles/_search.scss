@@ -1,0 +1,19 @@
+.search {
+  display: flex;
+  align-items: center;
+  background-color: orange;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  &__button {
+    color:green;
+    border-top-left-radius: 15px;
+    background-color: white;
+    border: none;
+    margin-right: 2px;
+  }
+  &__box{
+    border: none;
+    border-bottom-right-radius: 15px;
+  }
+}
