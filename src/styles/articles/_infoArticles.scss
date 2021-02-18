@@ -1,0 +1,25 @@
+.infoArticle {
+  display: flex;
+  img {
+    width: 25px;
+    height: 25px;
+  }
+  h3{
+    font-size: .8rem;
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+  h5 {
+    color: $color-gray-opaco;
+    margin: 0 10px 0 20px;
+  }
+  &__info{
+    display: flex;
+    margin-top: 0;
+    h4 {
+      margin-left: 15px;
+      font-size: .8rem;
+      color: $color-gray-opaco;
+    }
+  }
+}

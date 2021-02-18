@@ -4,7 +4,6 @@ import AppContext from '../../context/AppContext';
 const TittleArticle = () => {
   const { state } = useContext(AppContext);
   const { info } = state;
-  const text = info.content;
 
   return (
     <div className="tittleArticle">
