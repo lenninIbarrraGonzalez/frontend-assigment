@@ -1,0 +1,17 @@
+.tittleArticle {
+  display: flex;
+  align-items: center;
+  // background-color: red;
+  height: 60px;
+  &__botton{
+    color: white;
+    margin-left: 60px;
+    background-color: $color-auxiliar;
+    border: none;
+    padding: 5px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    cursor: pointer;
+  }
+  
+}
