@@ -1,4 +1,7 @@
 .iconosCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-size: .9rem;
   color: $color-primario;
-  font-size: .6rem;
 }
