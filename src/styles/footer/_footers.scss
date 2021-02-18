@@ -9,9 +9,9 @@
   background-color: $color-primario;
   color: $color-secundario;
 
-  @include media(desktop-s){
+  @include media(desktop-s) {
     flex-direction: row;
-    justify-content: space-between;
     height: 80px;
+    justify-content: space-between;
   }
 }

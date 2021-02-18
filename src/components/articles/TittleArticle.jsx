@@ -8,9 +8,9 @@ const TittleArticle = () => {
   return (
     <div className="tittleArticle">
       <h3>{info.title}</h3>
-      <botton type="button" className="tittleArticle__botton">
+      <button type="button" className="tittleArticle__botton">
         Guardar
-      </botton>
+      </button>
     </div>
   );
 };

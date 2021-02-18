@@ -11,7 +11,7 @@
   border-top-left-radius: 15px;
   border: 1px solid $color-primario;
   color: $color-primario;
-  @include media(desktop-s){
+  @include media(desktop-s) {
     width: 70%;
   }
   &--icon {

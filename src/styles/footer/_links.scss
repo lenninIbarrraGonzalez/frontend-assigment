@@ -6,7 +6,7 @@
   margin-bottom: 10px;
   font-size: .8rem;
 
-  @include media(desktop-s){
+  @include media(desktop-s) {
     flex-direction: row;
     margin-top: 0px;
     margin-bottom: 0px;
