@@ -5,12 +5,14 @@ const ContentArticle = () => {
   const { state } = useContext(AppContext);
   const { info } = state;
 
-  const texto = info.content;
- 
+  const text = info.content;
+
   return (
-    <div dangerouslySetInnerHTML={{
-      __html: `${info.content}`,
-    }}
+    <div
+      className='contentArticle'
+      dangerouslySetInnerHTML={{
+        __html: `${text}`,
+      }}
     />
 
   );

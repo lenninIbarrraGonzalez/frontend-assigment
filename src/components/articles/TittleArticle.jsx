@@ -1,9 +1,11 @@
 import React, { useContext } from 'react';
 import AppContext from '../../context/AppContext';
 
+
 const TittleArticle = () => {
   const { state } = useContext(AppContext);
   const { info } = state;
+  const text = info.content;
 
   return (
     <div className="tittleArticle">
@@ -11,7 +13,10 @@ const TittleArticle = () => {
       <botton type="button" className="tittleArticle__botton">
         Guardar
       </botton>
+
     </div>
+
+
   );
 }
 

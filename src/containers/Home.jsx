@@ -8,8 +8,11 @@ const Home = () => (
   <section className="home">
     <section className="home__article">
       <Banner />
+
       <TittleArticle />
-      <ContentArticle className='home__contentArticle' />
+      <ContentArticle />
+
+
     </section>
 
     <section className="home__new">

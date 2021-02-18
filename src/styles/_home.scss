@@ -16,13 +16,7 @@
   }
   &__article {
     background-color: $color-secundario;
-    height: 700px;
+    height: 100%;
     padding: 20px;
   }
-  &__contentArticle {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-  
 }
