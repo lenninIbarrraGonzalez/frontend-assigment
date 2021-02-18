@@ -6,7 +6,7 @@ const useInitialState = () => {
 
   return {
     state,
-  }
+  };
 };
 
 export default useInitialState;

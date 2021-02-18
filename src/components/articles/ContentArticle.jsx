@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext } from 'react';
 import AppContext from '../../context/AppContext';
 
 const ContentArticle = () => {
@@ -9,13 +9,12 @@ const ContentArticle = () => {
 
   return (
     <div
-      className='contentArticle'
+      className="contentArticle"
       dangerouslySetInnerHTML={{
         __html: `${text}`,
       }}
     />
-
   );
-}
+};
 
-export default ContentArticle
+export default ContentArticle;

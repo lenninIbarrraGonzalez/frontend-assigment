@@ -11,8 +11,6 @@ const Home = () => (
 
       <TittleArticle />
       <ContentArticle />
-
-
     </section>
 
     <section className="home__new">

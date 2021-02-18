@@ -1,6 +1,5 @@
 export default {
-  info:
-  {
+  info: {
     id: 1,
     title: 'Lorem ipson dolor sit amet',
     content:
