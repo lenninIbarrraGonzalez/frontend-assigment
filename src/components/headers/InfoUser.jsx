@@ -10,10 +10,15 @@ const InfoUser = () => (
 
     <div className="user__avatar">
       <img src={avatar} alt="" className="user__avatar--img" />
-      <i className="fas fa-angle-down" />
-    </div>
+      <button type='button'>
+        <i className="fas fa-angle-down" />
+      </button>
 
-    <i className="far fa-check-circle" />
+    </div>
+    <button type='button'>
+      <i className="far fa-check-circle" />
+    </button>
+
   </nav>
 );
 

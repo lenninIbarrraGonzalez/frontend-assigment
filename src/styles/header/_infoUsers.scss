@@ -20,6 +20,14 @@
     height: 30px;
     border-radius: 100%;
     margin-right: 5px;
+    
+  }
+  button {
+    background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  color: $color-secundario;
+  outline: none;
   }
   &__icon {
     position: relative;

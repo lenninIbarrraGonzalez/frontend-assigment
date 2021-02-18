@@ -3,11 +3,22 @@
   align-items: center;
   justify-content: space-around;
   width: 90px;
-  @include media(desktop-s){
+  @include media(desktop-s) {
     display: flex;
   }
-  &--link{
-  color: $color-secundario;
+  &--link {
   text-decoration: none;
+  color: $color-secundario;
  }
+ button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  color: $color-secundario;
+  outline: none;
+ }
+ button:focus {
+  outline: none;
+  box-shadow: none;
+}
 }

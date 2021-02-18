@@ -7,7 +7,10 @@ const Menu = () => (
     <Link to="/" className="menu--link">
       Inicio
     </Link>
-    <i className="fas fa-angle-down" />
+    <button type='button'>
+      <i className="fas fa-angle-down" />
+    </button>
+
   </nav>
 );
 
