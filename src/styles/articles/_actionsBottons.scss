@@ -1,0 +1,25 @@
+.actionsBottons {
+  display: flex;
+  width: 90%;
+  padding: 2px 15px;
+  height: 50px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border: 1px solid $color-primario;
+  color: $color-primario;
+  @include media(desktop-s){
+    width: 70%;
+  }
+  &--icon {
+    display: flex;
+    h5 {
+      padding-left: 10px;
+      color: gray;
+    }
+
+  }
+}
