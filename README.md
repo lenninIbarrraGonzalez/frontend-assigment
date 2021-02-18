@@ -1,37 +1,72 @@
 # DocRed Frontend test
-Este es un simple test para determinar tus conocimientos y habilidades de Frontend.
 
-## Como empezamos?
-Haz un fork de este repositorio para trabajar en él.
-Una vez completada la tarea, envíanos la URL de tu repositorio a nuestro email.
+_Este proyecto fue creado por componentes con el fin de hacerlo mantenible y fácil de entender por cualquier persona_
 
-## Consignas
+## Comenzando 🚀
 
-Antes que nada, lee bien las consignas. Este test debe reflejar no sólo tus conocimientos en technología, pero también tu forma de trabajar.
-Haz commit de tus cambios regularmente, esto también refleja cómo trabajas.
+### Pre-requisitos 📋
+_clona el proyecto_
 
-En total no debería tomarte mas de 1 día, pero usa tu tiempo sabiamente.
+### Instalación 🔧
+_npm install_
 
-## Que debes hacer?
+## Despliegue 📦
+_npm run build_
+_npm start_
 
-Intenta reproducir el mock-up que encuentras en `mockup/DocRed-mockup.png` lo más cercano posible.
-Crea una version responsive del mock-up.
-Presta atención a los detalles.
+## Tecnlogias 🔧
+_React_
+_React router_
+_Context_
+_Sass_
+_Webpack_
 
-El trabajo final debe mostrar un artículo como en el mock-up. Esperamos que los botones sean botones y los links sean links aunque estos no lleven a ningún lado.
+## sistema de diseño 🚀
 
-El contenido del artículo debe ser cargado desde el archivo `mockup/article.json` dinámicamente.
+###Principios
+_Mantenerlo simple y reusar lo más posible._
+_Un código que luzca como si una sola persona lo haya escrito_
+_Escribir para escalabilidad._
 
-Se debe agregar al final de este README las instrucciones sobre cómo correr el proyecto.
+## Generales
+_Usamos BEM como metodología de creación de código_
+_Nombre de archivos en plural (Ejemplo: _botones.scss)_
+_Clases en singular y minúsculas (Ejemplo: .galeria__boton)_
 
-Tecnologías que debes usar
-----
-- ReactJS (Con Hooks preferentemente)
-- SASS (o styled-components preferentemente)
 
-Puntos extras:
-----
-- NextJS y Typescript.
-- Unit testing.
-- Linting y Prettier
-- Docker
+## Sintaxis
+
+_1 espacio después del selector y antes de {}_
+_2 espacios para indentación._
+_1 espacio después del :_
+_Evitar abuso de anidaciones. Limite 1 nivel_
+_Mixins para tamaño, estilos y valores numéricos de fuentes._
+
+## Manejo de propiedades
+
+_Propiedades y selectores deben ordenarse de la siguiente forma:_
+_Propiedades del modelo de caja (display, width, height, margin, etc)_
+_Posicionamiento (position, left, top, right, etc)_
+_Posicionamiento (position, left, top, right, etc)_
+_Decoración (background-image, color, etc)_
+_Variables_
+_Mixins_
+
+.button {
+display: block;
+width: 220px;
+height: 40px;
+position: relative;
+text-transform: uppercase;
+background-color: #333333;
+font-weight: $semibold;
+@include font-size (13px);
+}
+
+
+## Autor ✒️
+
+- **Lennin Ibarra** - _Front-end developer_ - [Lennin Ibarra](https://github.com/lenninIbarrraGonzalez)
+
+## Licencia 📄
+Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](https://wikis.fdi.ucm.es/ELP/Licencia_MIT) para detalles
