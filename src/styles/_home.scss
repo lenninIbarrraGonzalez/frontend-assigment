@@ -1,5 +1,7 @@
 .home {
   // background-color:red;
-  display: flex;
+  // display: flex;
   padding: 50px 20px;
+  @include display-grid;
+  @include grid-template-columns(4fr 1fr)
 }
