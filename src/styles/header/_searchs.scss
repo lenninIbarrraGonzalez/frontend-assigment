@@ -5,19 +5,22 @@
   margin-right: 20px;
   padding: 5px;
   font-size: .9rem;
-  @include media(desktop-s){
+  @include media(desktop-s) {
     display: flex;
   }
   &__button {
-    color:$color-auxiliar;
     border-top-left-radius: 15px;
     background-color: white;
     border: none;
     margin-right: 2px;
+    outline: 0;
+    cursor: pointer;
+    color:$color-auxiliar;
   }
-  &__box{
+  &__box {
     border: none;
     width: 300px;
+    outline: none;
     border-bottom-right-radius: 15px;
   }
 }
