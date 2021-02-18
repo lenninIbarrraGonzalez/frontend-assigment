@@ -5,7 +5,14 @@ import News from '../components/newsletters/News';
 const Home = () => (
   <section className='home'>
     <Banner />
-    <News />
+    <section className='home__new'>
+      <News />
+      <News />
+      <News />
+      <News />
+    </section>
+   
+
   </section>
 );
 

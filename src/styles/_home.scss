@@ -1,5 +1,22 @@
 .home {
   // background-color:red;
-  display: flex;
+  // display: flex;
   padding: 50px 20px;
+  @include media(desktop-s){
+    @include display-grid;
+    @include grid-template-columns(3fr 1fr)
+  }
+  @include media(desktop-l){
+    @include display-grid;
+    @include grid-template-columns(4fr 1fr)
+  }
+  &__new{
+    display: none;
+    @include media(desktop-s){
+      display: block;
+    }
+
+  }
+
+  
 }
