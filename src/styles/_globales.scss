@@ -3,4 +3,9 @@ $color-secundario: #FFFFFF;
 $color-auxiliar: #65b32e;
 $color-gray: #F2F2F2;
 $color-gray-opaco: rgb(201, 201, 201);
+$Fuente: 'Roboto', sans-serif;
 
+body {
+  margin: 0;
+  font-family: $Fuente;
+}
