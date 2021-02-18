@@ -3,6 +3,7 @@ import Banner from '../components/articles/Banner';
 import ContentArticle from '../components/articles/ContentArticle';
 import TittleArticle from '../components/articles/TittleArticle';
 import News from '../components/newsletters/News';
+import Tags from '../components/articles/Tags';
 
 const Home = () => (
   <section className="home">
@@ -10,6 +11,7 @@ const Home = () => (
       <Banner />
 
       <TittleArticle />
+      <Tags />
       <ContentArticle />
     </section>
 

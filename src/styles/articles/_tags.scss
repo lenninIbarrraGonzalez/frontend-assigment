@@ -1,0 +1,10 @@
+.tag {
+  display: flex;
+  &__info {
+    margin-left: 15px;
+    padding: 2px 5px;
+    color: $color-primario;
+    background-color: $color-gray;
+  }
+
+}
