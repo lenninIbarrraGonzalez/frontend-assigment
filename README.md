@@ -8,60 +8,60 @@ _Este proyecto fue creado por componentes con el fin de hacerlo mantenible y fá
 _clona el proyecto_
 
 ### Instalación 🔧
-_npm install_
+- _npm install_
 
 ## Despliegue 📦
-_npm run build_
-_npm start_
+- npm run build
+- npm start 
 
 ## Tecnlogias 🔧
-_React_
-_React router_
-_Context_
-_Sass_
-_Webpack_
+- React
+- React router
+- Context
+- Sass
+- Webpack
 
 ## sistema de diseño 🚀
 
-###Principios
-_Mantenerlo simple y reusar lo más posible._
-_Un código que luzca como si una sola persona lo haya escrito_
-_Escribir para escalabilidad._
+### Principios
+- Mantenerlo simple y reusar lo más posible.
+- Un código que luzca como si una sola persona lo haya escrito
+- Escribir para escalabilidad.
 
 ## Generales
-_Usamos BEM como metodología de creación de código_
-_Nombre de archivos en plural (Ejemplo: _botones.scss)_
-_Clases en singular y minúsculas (Ejemplo: .galeria__boton)_
+- Usamos BEM como metodología de creación de código
+- Nombre de archivos en plural (Ejemplo: _botones.scss)
+- Clases en singular y minúsculas (Ejemplo: .galeria__boton)
 
 
 ## Sintaxis
 
-_1 espacio después del selector y antes de {}_
-_2 espacios para indentación._
-_1 espacio después del :_
-_Evitar abuso de anidaciones. Limite 1 nivel_
-_Mixins para tamaño, estilos y valores numéricos de fuentes._
+- 1 espacio después del selector y antes de {}
+- 2 espacios para indentación.
+- 1 espacio después del :
+- Evitar abuso de anidaciones. Limite 1 nivel
+- Mixins para tamaño, estilos y valores numéricos de fuentes.
 
 ## Manejo de propiedades
 
-_Propiedades y selectores deben ordenarse de la siguiente forma:_
-_Propiedades del modelo de caja (display, width, height, margin, etc)_
-_Posicionamiento (position, left, top, right, etc)_
-_Posicionamiento (position, left, top, right, etc)_
-_Decoración (background-image, color, etc)_
-_Variables_
-_Mixins_
+- Propiedades y selectores deben ordenarse de la siguiente forma:_
+- Propiedades del modelo de caja (display, width, height, margin, etc)_
+- Posicionamiento (position, left, top, right, etc)_
+- Posicionamiento (position, left, top, right, etc)_
+- Decoración (background-image, color, etc)_
+- Variables
+- Mixins
 
-.button {
-display: block;
-width: 220px;
-height: 40px;
-position: relative;
-text-transform: uppercase;
-background-color: #333333;
-font-weight: $semibold;
-@include font-size (13px);
-}
+- .button {
+- display: block;
+- width: 220px;
+- height: 40px;
+- position: relative;
+- text-transform: uppercase;
+- background-color: #333333;
+- font-weight: $semibold;
+- @include font-size (13px);
+- }
 
 
 ## Autor ✒️
