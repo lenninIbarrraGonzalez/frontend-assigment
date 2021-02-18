@@ -1,0 +1,23 @@
+.imageCard {
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  background-image: linear-gradient($color-auxiliar, $color-primario);
+  &__tittle {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: $color-secundario;
+    background-color: $color-primario;
+  }
+}

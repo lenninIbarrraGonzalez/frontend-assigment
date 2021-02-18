@@ -1,6 +1,8 @@
 @import './bootstrap_reboot.scss';
 @import './globales';
 @import './breakpoints';
+@import './layout';
+@import './home';
 @import './logos';
 @import './header/header';
 @import './header/searchs';
@@ -10,4 +12,8 @@
 @import './footer/links';
 @import './footer/copyrigths';
 @import './topMenu';
-@import './articles/banners'
+@import './articles/banners';
+@import './newsletter/imagenCard';
+@import './newsletter/card';
+@import './newsletter/tittleCard';
+@import './newsletter/autorCard'
