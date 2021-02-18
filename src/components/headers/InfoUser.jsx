@@ -3,7 +3,11 @@ import avatar from '../../assets/images/avatarLenin.png';
 
 const InfoUser = () => (
   <nav className="user">
-    <i className="far fa-bell" />
+    <div className="user__icon">
+      <i className="far fa-bell" />
+      <h6>1</h6>
+    </div>
+
     <div className="user__avatar">
       <img src={avatar} alt="" className="user__avatar--img" />
       <i className="fas fa-angle-down" />
