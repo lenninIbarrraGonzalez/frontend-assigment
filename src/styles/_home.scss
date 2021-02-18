@@ -1,6 +1,4 @@
 .home {
-  // background-color:red;
-  // display: flex;
   padding: 50px 20px;
   @include media(desktop-s){
     @include display-grid;
@@ -10,13 +8,16 @@
     @include display-grid;
     @include grid-template-columns(4fr 1fr)
   }
-  &__new{
+  &__new {
     display: none;
     @include media(desktop-s){
       display: block;
     }
-
   }
-
+  &__article {
+    background-color: $color-secundario;
+    height: 700px;
+    padding: 20px;
+  }
   
 }
