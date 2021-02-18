@@ -13,6 +13,11 @@
     @include media(desktop-s){
       display: block;
     }
+    h3{
+      color: $color-primario;
+      margin-left: 25px;
+      font-size: .9rem;
+    }
   }
   &__article {
     background-color: $color-secundario;

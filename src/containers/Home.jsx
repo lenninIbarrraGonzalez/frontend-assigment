@@ -17,6 +17,7 @@ const Home = () => (
     </section>
 
     <section className="home__new">
+      <h3>Noticias relacionadas</h3>
       <News />
       <News />
       <News />
