@@ -17,7 +17,10 @@ const Home = () => (
     </section>
 
     <section className="home__new">
-      <h3>Noticias relacionadas</h3>
+      <div className="home__tittle">
+        <h3>Noticias relacionadas</h3>
+        <hr />
+      </div>
       <News />
       <News />
       <News />

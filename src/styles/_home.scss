@@ -14,14 +14,23 @@
       display: block;
     }
     h3{
-      color: $color-primario;
+      
       margin-left: 25px;
       font-size: .9rem;
+      color: $color-primario;
     }
+    hr {
+      width: 120px;
+      size: 20px;
+      color: $color-primario;
+     }
   }
   &__article {
-    background-color: $color-secundario;
     height: 100%;
     padding: 20px;
+    background-color: $color-secundario;
+  }
+  &__tittle {
+    display: flex;
   }
 }
