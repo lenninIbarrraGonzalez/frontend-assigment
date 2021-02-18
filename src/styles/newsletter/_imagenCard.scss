@@ -1,10 +1,10 @@
 .imageCard {
-  margin-top: 15px;
-  margin-right: 10px;
-  margin-left: 10px;
   position: relative;
   width: 120px;
   height: 120px;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
   border-radius: 8px;
   background-image: linear-gradient($color-auxiliar, $color-primario);
   &__tittle {

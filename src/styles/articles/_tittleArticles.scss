@@ -1,18 +1,16 @@
 .tittleArticle {
   display: flex;
+  height: 60px;
   align-items: center;
   padding-left: 20px;
-  // background-color: red;
-  height: 60px;
-  &__botton{
+  &__botton {
     color: white;
     margin-left: 60px;
-    background-color: $color-auxiliar;
     border: none;
     padding: 5px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     cursor: pointer;
+    background-color: $color-auxiliar;
   }
-  
 }
